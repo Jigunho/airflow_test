@@ -1,0 +1,112 @@
+[2020-11-05 23:53:19,969] {scheduler_job.py:155} INFO - Started process (PID=48133) to work on /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-05 23:53:24,974] {scheduler_job.py:1589} INFO - Processing file /Users/jigeonho/airflow/dags/dagfile.py for tasks to queue
+[2020-11-05 23:53:24,976] {logging_mixin.py:112} INFO - [2020-11-05 23:53:24,975] {dagbag.py:417} INFO - Filling up the DagBag from /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-05 23:53:24,984] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-05 23:53:25,007] {scheduler_job.py:1305} INFO - Processing my_first_dag
+[2020-11-05 23:53:25,020] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: my_first_dag> because no tasks in DAG have SLAs
+[2020-11-05 23:53:25,024] {scheduler_job.py:163} INFO - Processing /Users/jigeonho/airflow/dags/dagfile.py took 5.056 seconds
+[2020-11-06 00:00:04,806] {scheduler_job.py:155} INFO - Started process (PID=48229) to work on /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 00:00:09,814] {scheduler_job.py:1589} INFO - Processing file /Users/jigeonho/airflow/dags/dagfile.py for tasks to queue
+[2020-11-06 00:00:09,815] {logging_mixin.py:112} INFO - [2020-11-06 00:00:09,814] {dagbag.py:417} INFO - Filling up the DagBag from /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 00:00:09,824] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 00:00:09,846] {scheduler_job.py:1305} INFO - Processing my_first_dag
+[2020-11-06 00:00:09,857] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: my_first_dag> because no tasks in DAG have SLAs
+[2020-11-06 00:00:09,861] {scheduler_job.py:163} INFO - Processing /Users/jigeonho/airflow/dags/dagfile.py took 5.054 seconds
+[2020-11-06 00:02:22,609] {scheduler_job.py:155} INFO - Started process (PID=48332) to work on /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 00:02:27,616] {scheduler_job.py:1589} INFO - Processing file /Users/jigeonho/airflow/dags/dagfile.py for tasks to queue
+[2020-11-06 00:02:27,617] {logging_mixin.py:112} INFO - [2020-11-06 00:02:27,616] {dagbag.py:417} INFO - Filling up the DagBag from /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 00:02:27,626] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 00:02:27,649] {scheduler_job.py:1305} INFO - Processing my_first_dag
+[2020-11-06 00:02:27,661] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: my_first_dag> because no tasks in DAG have SLAs
+[2020-11-06 00:02:27,665] {scheduler_job.py:163} INFO - Processing /Users/jigeonho/airflow/dags/dagfile.py took 5.057 seconds
+[2020-11-06 00:08:41,819] {scheduler_job.py:155} INFO - Started process (PID=48503) to work on /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 00:08:46,826] {scheduler_job.py:1589} INFO - Processing file /Users/jigeonho/airflow/dags/dagfile.py for tasks to queue
+[2020-11-06 00:08:46,827] {logging_mixin.py:112} INFO - [2020-11-06 00:08:46,827] {dagbag.py:417} INFO - Filling up the DagBag from /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 00:08:46,836] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['dagfile']) retrieved from /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 00:08:46,846] {logging_mixin.py:112} INFO - [2020-11-06 00:08:46,846] {dag.py:1520} INFO - Creating ORM DAG for dagfile
+[2020-11-06 00:08:46,854] {scheduler_job.py:163} INFO - Processing /Users/jigeonho/airflow/dags/dagfile.py took 5.035 seconds
+[2020-11-06 00:10:54,639] {scheduler_job.py:155} INFO - Started process (PID=48548) to work on /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 00:10:59,649] {scheduler_job.py:1589} INFO - Processing file /Users/jigeonho/airflow/dags/dagfile.py for tasks to queue
+[2020-11-06 00:10:59,650] {logging_mixin.py:112} INFO - [2020-11-06 00:10:59,650] {dagbag.py:417} INFO - Filling up the DagBag from /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 00:10:59,659] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['dagfile']) retrieved from /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 00:10:59,680] {scheduler_job.py:163} INFO - Processing /Users/jigeonho/airflow/dags/dagfile.py took 5.041 seconds
+[2020-11-06 00:25:21,841] {scheduler_job.py:155} INFO - Started process (PID=48636) to work on /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 00:25:26,845] {scheduler_job.py:1589} INFO - Processing file /Users/jigeonho/airflow/dags/dagfile.py for tasks to queue
+[2020-11-06 00:25:26,846] {logging_mixin.py:112} INFO - [2020-11-06 00:25:26,846] {dagbag.py:417} INFO - Filling up the DagBag from /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 00:25:26,858] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['dagfile']) retrieved from /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 00:25:26,876] {scheduler_job.py:163} INFO - Processing /Users/jigeonho/airflow/dags/dagfile.py took 5.036 seconds
+[2020-11-06 00:27:35,182] {scheduler_job.py:155} INFO - Started process (PID=48709) to work on /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 00:27:40,190] {scheduler_job.py:1589} INFO - Processing file /Users/jigeonho/airflow/dags/dagfile.py for tasks to queue
+[2020-11-06 00:27:40,191] {logging_mixin.py:112} INFO - [2020-11-06 00:27:40,191] {dagbag.py:417} INFO - Filling up the DagBag from /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 00:27:40,201] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['dagfile']) retrieved from /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 00:27:40,221] {scheduler_job.py:163} INFO - Processing /Users/jigeonho/airflow/dags/dagfile.py took 5.039 seconds
+[2020-11-06 00:29:48,562] {scheduler_job.py:155} INFO - Started process (PID=48756) to work on /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 00:29:53,568] {scheduler_job.py:1589} INFO - Processing file /Users/jigeonho/airflow/dags/dagfile.py for tasks to queue
+[2020-11-06 00:29:53,569] {logging_mixin.py:112} INFO - [2020-11-06 00:29:53,568] {dagbag.py:417} INFO - Filling up the DagBag from /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 00:29:53,578] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['dagfile']) retrieved from /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 00:29:53,595] {scheduler_job.py:163} INFO - Processing /Users/jigeonho/airflow/dags/dagfile.py took 5.034 seconds
+[2020-11-06 00:32:01,221] {scheduler_job.py:155} INFO - Started process (PID=48813) to work on /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 00:32:06,235] {scheduler_job.py:1589} INFO - Processing file /Users/jigeonho/airflow/dags/dagfile.py for tasks to queue
+[2020-11-06 00:32:06,236] {logging_mixin.py:112} INFO - [2020-11-06 00:32:06,236] {dagbag.py:417} INFO - Filling up the DagBag from /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 00:32:06,245] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['dagfile']) retrieved from /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 00:32:06,264] {scheduler_job.py:163} INFO - Processing /Users/jigeonho/airflow/dags/dagfile.py took 5.043 seconds
+[2020-11-06 00:53:42,304] {scheduler_job.py:155} INFO - Started process (PID=49782) to work on /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 00:53:47,313] {scheduler_job.py:1589} INFO - Processing file /Users/jigeonho/airflow/dags/dagfile.py for tasks to queue
+[2020-11-06 00:53:47,314] {logging_mixin.py:112} INFO - [2020-11-06 00:53:47,314] {dagbag.py:417} INFO - Filling up the DagBag from /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 00:53:47,323] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['dagfile']) retrieved from /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 00:53:47,341] {scheduler_job.py:163} INFO - Processing /Users/jigeonho/airflow/dags/dagfile.py took 5.037 seconds
+[2020-11-06 00:55:54,831] {scheduler_job.py:155} INFO - Started process (PID=49971) to work on /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 00:55:59,839] {scheduler_job.py:1589} INFO - Processing file /Users/jigeonho/airflow/dags/dagfile.py for tasks to queue
+[2020-11-06 00:55:59,840] {logging_mixin.py:112} INFO - [2020-11-06 00:55:59,840] {dagbag.py:417} INFO - Filling up the DagBag from /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 00:55:59,850] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['dagfile']) retrieved from /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 00:55:59,868] {scheduler_job.py:163} INFO - Processing /Users/jigeonho/airflow/dags/dagfile.py took 5.037 seconds
+[2020-11-06 00:58:07,278] {scheduler_job.py:155} INFO - Started process (PID=50034) to work on /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 00:58:12,282] {scheduler_job.py:1589} INFO - Processing file /Users/jigeonho/airflow/dags/dagfile.py for tasks to queue
+[2020-11-06 00:58:12,283] {logging_mixin.py:112} INFO - [2020-11-06 00:58:12,283] {dagbag.py:417} INFO - Filling up the DagBag from /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 00:58:12,291] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['dagfile']) retrieved from /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 00:58:12,306] {scheduler_job.py:163} INFO - Processing /Users/jigeonho/airflow/dags/dagfile.py took 5.028 seconds
+[2020-11-06 01:00:20,570] {scheduler_job.py:155} INFO - Started process (PID=50126) to work on /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 01:00:25,580] {scheduler_job.py:1589} INFO - Processing file /Users/jigeonho/airflow/dags/dagfile.py for tasks to queue
+[2020-11-06 01:00:25,581] {logging_mixin.py:112} INFO - [2020-11-06 01:00:25,580] {dagbag.py:417} INFO - Filling up the DagBag from /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 01:00:25,593] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['dagfile']) retrieved from /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 01:00:25,610] {scheduler_job.py:163} INFO - Processing /Users/jigeonho/airflow/dags/dagfile.py took 5.040 seconds
+[2020-11-06 01:02:33,431] {scheduler_job.py:155} INFO - Started process (PID=50157) to work on /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 01:02:38,436] {scheduler_job.py:1589} INFO - Processing file /Users/jigeonho/airflow/dags/dagfile.py for tasks to queue
+[2020-11-06 01:02:38,438] {logging_mixin.py:112} INFO - [2020-11-06 01:02:38,437] {dagbag.py:417} INFO - Filling up the DagBag from /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 01:02:38,446] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['dagfile']) retrieved from /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 01:02:38,463] {scheduler_job.py:163} INFO - Processing /Users/jigeonho/airflow/dags/dagfile.py took 5.032 seconds
+[2020-11-06 01:04:46,180] {scheduler_job.py:155} INFO - Started process (PID=50203) to work on /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 01:04:51,190] {scheduler_job.py:1589} INFO - Processing file /Users/jigeonho/airflow/dags/dagfile.py for tasks to queue
+[2020-11-06 01:04:51,191] {logging_mixin.py:112} INFO - [2020-11-06 01:04:51,190] {dagbag.py:417} INFO - Filling up the DagBag from /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 01:04:51,203] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['dagfile']) retrieved from /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 01:04:51,220] {scheduler_job.py:163} INFO - Processing /Users/jigeonho/airflow/dags/dagfile.py took 5.040 seconds
+[2020-11-06 01:06:59,002] {scheduler_job.py:155} INFO - Started process (PID=50248) to work on /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 01:07:04,010] {scheduler_job.py:1589} INFO - Processing file /Users/jigeonho/airflow/dags/dagfile.py for tasks to queue
+[2020-11-06 01:07:04,011] {logging_mixin.py:112} INFO - [2020-11-06 01:07:04,011] {dagbag.py:417} INFO - Filling up the DagBag from /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 01:07:04,023] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['dagfile']) retrieved from /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 01:07:04,040] {scheduler_job.py:163} INFO - Processing /Users/jigeonho/airflow/dags/dagfile.py took 5.038 seconds
+[2020-11-06 01:09:13,458] {scheduler_job.py:155} INFO - Started process (PID=50351) to work on /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 01:09:18,481] {scheduler_job.py:1589} INFO - Processing file /Users/jigeonho/airflow/dags/dagfile.py for tasks to queue
+[2020-11-06 01:09:18,484] {logging_mixin.py:112} INFO - [2020-11-06 01:09:18,483] {dagbag.py:417} INFO - Filling up the DagBag from /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 01:09:18,519] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['dagfile']) retrieved from /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 01:09:18,579] {scheduler_job.py:163} INFO - Processing /Users/jigeonho/airflow/dags/dagfile.py took 5.121 seconds
+[2020-11-06 02:29:36,872] {scheduler_job.py:155} INFO - Started process (PID=50417) to work on /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 02:29:41,895] {scheduler_job.py:1589} INFO - Processing file /Users/jigeonho/airflow/dags/dagfile.py for tasks to queue
+[2020-11-06 02:29:41,898] {logging_mixin.py:112} INFO - [2020-11-06 02:29:41,897] {dagbag.py:417} INFO - Filling up the DagBag from /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 02:29:41,929] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['dagfile']) retrieved from /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 02:29:41,987] {scheduler_job.py:163} INFO - Processing /Users/jigeonho/airflow/dags/dagfile.py took 5.115 seconds
+[2020-11-06 04:09:18,089] {scheduler_job.py:155} INFO - Started process (PID=50518) to work on /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 04:09:23,106] {scheduler_job.py:1589} INFO - Processing file /Users/jigeonho/airflow/dags/dagfile.py for tasks to queue
+[2020-11-06 04:09:23,109] {logging_mixin.py:112} INFO - [2020-11-06 04:09:23,108] {dagbag.py:417} INFO - Filling up the DagBag from /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 04:09:23,138] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['dagfile']) retrieved from /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 04:09:23,200] {scheduler_job.py:163} INFO - Processing /Users/jigeonho/airflow/dags/dagfile.py took 5.112 seconds
+[2020-11-06 05:27:18,116] {scheduler_job.py:155} INFO - Started process (PID=50573) to work on /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 05:27:23,141] {scheduler_job.py:1589} INFO - Processing file /Users/jigeonho/airflow/dags/dagfile.py for tasks to queue
+[2020-11-06 05:27:23,142] {logging_mixin.py:112} INFO - [2020-11-06 05:27:23,142] {dagbag.py:417} INFO - Filling up the DagBag from /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 05:27:23,152] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['dagfile']) retrieved from /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 05:27:23,169] {scheduler_job.py:163} INFO - Processing /Users/jigeonho/airflow/dags/dagfile.py took 5.054 seconds
+[2020-11-06 07:42:29,484] {scheduler_job.py:155} INFO - Started process (PID=50675) to work on /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 07:42:34,502] {scheduler_job.py:1589} INFO - Processing file /Users/jigeonho/airflow/dags/dagfile.py for tasks to queue
+[2020-11-06 07:42:34,505] {logging_mixin.py:112} INFO - [2020-11-06 07:42:34,504] {dagbag.py:417} INFO - Filling up the DagBag from /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 07:42:34,535] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['dagfile']) retrieved from /Users/jigeonho/airflow/dags/dagfile.py
+[2020-11-06 07:42:34,584] {scheduler_job.py:163} INFO - Processing /Users/jigeonho/airflow/dags/dagfile.py took 5.100 seconds

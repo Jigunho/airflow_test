@@ -1,0 +1,162 @@
+[2020-11-05 21:29:08,761] {scheduler_job.py:155} INFO - Started process (PID=40266) to work on /Users/jigeonho/airflow/dags/my_first.py
+[2020-11-05 21:29:13,767] {scheduler_job.py:1589} INFO - Processing file /Users/jigeonho/airflow/dags/my_first.py for tasks to queue
+[2020-11-05 21:29:13,769] {logging_mixin.py:112} INFO - [2020-11-05 21:29:13,768] {dagbag.py:417} INFO - Filling up the DagBag from /Users/jigeonho/airflow/dags/my_first.py
+[2020-11-05 21:29:13,777] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /Users/jigeonho/airflow/dags/my_first.py
+[2020-11-05 21:29:13,784] {logging_mixin.py:112} INFO - [2020-11-05 21:29:13,784] {dag.py:1520} INFO - Creating ORM DAG for my_first_dag
+[2020-11-05 21:29:13,796] {scheduler_job.py:163} INFO - Processing /Users/jigeonho/airflow/dags/my_first.py took 5.036 seconds
+[2020-11-05 21:31:21,701] {scheduler_job.py:155} INFO - Started process (PID=40313) to work on /Users/jigeonho/airflow/dags/my_first.py
+[2020-11-05 21:31:26,708] {scheduler_job.py:1589} INFO - Processing file /Users/jigeonho/airflow/dags/my_first.py for tasks to queue
+[2020-11-05 21:31:26,709] {logging_mixin.py:112} INFO - [2020-11-05 21:31:26,708] {dagbag.py:417} INFO - Filling up the DagBag from /Users/jigeonho/airflow/dags/my_first.py
+[2020-11-05 21:31:26,716] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /Users/jigeonho/airflow/dags/my_first.py
+[2020-11-05 21:31:26,738] {scheduler_job.py:163} INFO - Processing /Users/jigeonho/airflow/dags/my_first.py took 5.037 seconds
+[2020-11-05 21:33:34,591] {scheduler_job.py:155} INFO - Started process (PID=41000) to work on /Users/jigeonho/airflow/dags/my_first.py
+[2020-11-05 21:33:39,596] {scheduler_job.py:1589} INFO - Processing file /Users/jigeonho/airflow/dags/my_first.py for tasks to queue
+[2020-11-05 21:33:39,597] {logging_mixin.py:112} INFO - [2020-11-05 21:33:39,597] {dagbag.py:417} INFO - Filling up the DagBag from /Users/jigeonho/airflow/dags/my_first.py
+[2020-11-05 21:33:39,610] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /Users/jigeonho/airflow/dags/my_first.py
+[2020-11-05 21:33:39,629] {scheduler_job.py:163} INFO - Processing /Users/jigeonho/airflow/dags/my_first.py took 5.038 seconds
+[2020-11-05 23:39:47,760] {scheduler_job.py:155} INFO - Started process (PID=47048) to work on /Users/jigeonho/airflow/dags/my_first.py
+[2020-11-05 23:39:52,771] {scheduler_job.py:1589} INFO - Processing file /Users/jigeonho/airflow/dags/my_first.py for tasks to queue
+[2020-11-05 23:39:52,772] {logging_mixin.py:112} INFO - [2020-11-05 23:39:52,772] {dagbag.py:417} INFO - Filling up the DagBag from /Users/jigeonho/airflow/dags/my_first.py
+[2020-11-05 23:39:52,782] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /Users/jigeonho/airflow/dags/my_first.py
+[2020-11-05 23:39:52,802] {scheduler_job.py:163} INFO - Processing /Users/jigeonho/airflow/dags/my_first.py took 5.042 seconds
+[2020-11-05 23:42:01,105] {scheduler_job.py:155} INFO - Started process (PID=47096) to work on /Users/jigeonho/airflow/dags/my_first.py
+[2020-11-05 23:42:06,113] {scheduler_job.py:1589} INFO - Processing file /Users/jigeonho/airflow/dags/my_first.py for tasks to queue
+[2020-11-05 23:42:06,114] {logging_mixin.py:112} INFO - [2020-11-05 23:42:06,114] {dagbag.py:417} INFO - Filling up the DagBag from /Users/jigeonho/airflow/dags/my_first.py
+[2020-11-05 23:42:06,124] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /Users/jigeonho/airflow/dags/my_first.py
+[2020-11-05 23:42:06,147] {scheduler_job.py:1305} INFO - Processing my_first_dag
+[2020-11-05 23:42:06,171] {scheduler_job.py:1315} INFO - Created <DagRun my_first_dag @ 2020-11-04 00:00:00+00:00: scheduled__2020-11-04T00:00:00+00:00, externally triggered: False>
+[2020-11-05 23:42:06,174] {scheduler_job.py:771} INFO - Examining DAG run <DagRun my_first_dag @ 2020-11-04 00:00:00+00:00: scheduled__2020-11-04T00:00:00+00:00, externally triggered: False>
+[2020-11-05 23:42:06,181] {scheduler_job.py:771} INFO - Examining DAG run <DagRun my_first_dag @ 2020-11-05 14:23:18.501689+00:00: manual__2020-11-05T14:23:18.501689+00:00, externally triggered: True>
+[2020-11-05 23:42:06,184] {logging_mixin.py:112} INFO - [2020-11-05 23:42:06,184] {dagrun.py:378} WARNING - Failed to get task '<TaskInstance: my_first_dag.print_date 2020-11-05 14:23:18.501689+00:00 [None]>' for dag '<DAG: my_first_dag>'. Marking it as removed.
+[2020-11-05 23:42:06,184] {logging_mixin.py:112} INFO - [2020-11-05 23:42:06,184] {dagrun.py:378} WARNING - Failed to get task '<TaskInstance: my_first_dag.sleep 2020-11-05 14:23:18.501689+00:00 [None]>' for dag '<DAG: my_first_dag>'. Marking it as removed.
+[2020-11-05 23:42:06,185] {logging_mixin.py:112} INFO - [2020-11-05 23:42:06,185] {dagrun.py:378} WARNING - Failed to get task '<TaskInstance: my_first_dag.print_whoami 2020-11-05 14:23:18.501689+00:00 [None]>' for dag '<DAG: my_first_dag>'. Marking it as removed.
+[2020-11-05 23:42:06,192] {scheduler_job.py:771} INFO - Examining DAG run <DagRun my_first_dag @ 2020-11-05 14:38:46.412284+00:00: manual__2020-11-05T14:38:46.412284+00:00, externally triggered: True>
+[2020-11-05 23:42:06,199] {scheduler_job.py:771} INFO - Examining DAG run <DagRun my_first_dag @ 2020-11-05 14:41:41.773340+00:00: manual__2020-11-05T14:41:41.773340+00:00, externally triggered: True>
+[2020-11-05 23:42:06,233] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: my_first_dag> because no tasks in DAG have SLAs
+[2020-11-05 23:42:06,235] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: my_first_dag.task_1 2020-11-04 00:00:00+00:00 [scheduled]> in ORM
+[2020-11-05 23:42:06,238] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: my_first_dag.task_1 2020-11-05 14:23:18.501689+00:00 [scheduled]> in ORM
+[2020-11-05 23:42:06,240] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: my_first_dag.task_1 2020-11-05 14:38:46.412284+00:00 [scheduled]> in ORM
+[2020-11-05 23:42:06,242] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: my_first_dag.task_1 2020-11-05 14:41:41.773340+00:00 [scheduled]> in ORM
+[2020-11-05 23:42:06,247] {scheduler_job.py:163} INFO - Processing /Users/jigeonho/airflow/dags/my_first.py took 5.142 seconds
+[2020-11-05 23:44:14,273] {scheduler_job.py:155} INFO - Started process (PID=47150) to work on /Users/jigeonho/airflow/dags/my_first.py
+[2020-11-05 23:44:19,284] {scheduler_job.py:1589} INFO - Processing file /Users/jigeonho/airflow/dags/my_first.py for tasks to queue
+[2020-11-05 23:44:19,285] {logging_mixin.py:112} INFO - [2020-11-05 23:44:19,284] {dagbag.py:417} INFO - Filling up the DagBag from /Users/jigeonho/airflow/dags/my_first.py
+[2020-11-05 23:44:19,298] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /Users/jigeonho/airflow/dags/my_first.py
+[2020-11-05 23:44:19,318] {scheduler_job.py:1305} INFO - Processing my_first_dag
+[2020-11-05 23:44:19,331] {scheduler_job.py:771} INFO - Examining DAG run <DagRun my_first_dag @ 2020-11-04 00:00:00+00:00: scheduled__2020-11-04T00:00:00+00:00, externally triggered: False>
+[2020-11-05 23:44:19,348] {scheduler_job.py:771} INFO - Examining DAG run <DagRun my_first_dag @ 2020-11-05 14:23:18.501689+00:00: manual__2020-11-05T14:23:18.501689+00:00, externally triggered: True>
+[2020-11-05 23:44:19,360] {scheduler_job.py:771} INFO - Examining DAG run <DagRun my_first_dag @ 2020-11-05 14:38:46.412284+00:00: manual__2020-11-05T14:38:46.412284+00:00, externally triggered: True>
+[2020-11-05 23:44:19,373] {scheduler_job.py:771} INFO - Examining DAG run <DagRun my_first_dag @ 2020-11-05 14:41:41.773340+00:00: manual__2020-11-05T14:41:41.773340+00:00, externally triggered: True>
+[2020-11-05 23:44:19,395] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: my_first_dag> because no tasks in DAG have SLAs
+[2020-11-05 23:44:19,398] {scheduler_job.py:163} INFO - Processing /Users/jigeonho/airflow/dags/my_first.py took 5.125 seconds
+[2020-11-05 23:46:27,126] {scheduler_job.py:155} INFO - Started process (PID=47217) to work on /Users/jigeonho/airflow/dags/my_first.py
+[2020-11-05 23:46:32,138] {scheduler_job.py:1589} INFO - Processing file /Users/jigeonho/airflow/dags/my_first.py for tasks to queue
+[2020-11-05 23:46:32,139] {logging_mixin.py:112} INFO - [2020-11-05 23:46:32,139] {dagbag.py:417} INFO - Filling up the DagBag from /Users/jigeonho/airflow/dags/my_first.py
+[2020-11-05 23:46:32,155] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /Users/jigeonho/airflow/dags/my_first.py
+[2020-11-05 23:46:32,179] {scheduler_job.py:1305} INFO - Processing my_first_dag
+[2020-11-05 23:46:32,193] {scheduler_job.py:771} INFO - Examining DAG run <DagRun my_first_dag @ 2020-11-04 00:00:00+00:00: scheduled__2020-11-04T00:00:00+00:00, externally triggered: False>
+[2020-11-05 23:46:32,200] {logging_mixin.py:112} INFO - [2020-11-05 23:46:32,199] {dagrun.py:378} WARNING - Failed to get task '<TaskInstance: my_first_dag.task_1 2020-11-04 00:00:00+00:00 [failed]>' for dag '<DAG: my_first_dag>'. Marking it as removed.
+[2020-11-05 23:46:32,200] {logging_mixin.py:112} INFO - [2020-11-05 23:46:32,200] {dagrun.py:378} WARNING - Failed to get task '<TaskInstance: my_first_dag.task_2 2020-11-04 00:00:00+00:00 [upstream_failed]>' for dag '<DAG: my_first_dag>'. Marking it as removed.
+[2020-11-05 23:46:32,212] {scheduler_job.py:771} INFO - Examining DAG run <DagRun my_first_dag @ 2020-11-05 14:23:18.501689+00:00: manual__2020-11-05T14:23:18.501689+00:00, externally triggered: True>
+[2020-11-05 23:46:32,215] {logging_mixin.py:112} INFO - [2020-11-05 23:46:32,215] {dagrun.py:378} WARNING - Failed to get task '<TaskInstance: my_first_dag.task_1 2020-11-05 14:23:18.501689+00:00 [failed]>' for dag '<DAG: my_first_dag>'. Marking it as removed.
+[2020-11-05 23:46:32,216] {logging_mixin.py:112} INFO - [2020-11-05 23:46:32,216] {dagrun.py:378} WARNING - Failed to get task '<TaskInstance: my_first_dag.task_2 2020-11-05 14:23:18.501689+00:00 [upstream_failed]>' for dag '<DAG: my_first_dag>'. Marking it as removed.
+[2020-11-05 23:46:32,224] {scheduler_job.py:771} INFO - Examining DAG run <DagRun my_first_dag @ 2020-11-05 14:38:46.412284+00:00: manual__2020-11-05T14:38:46.412284+00:00, externally triggered: True>
+[2020-11-05 23:46:32,227] {logging_mixin.py:112} INFO - [2020-11-05 23:46:32,226] {dagrun.py:378} WARNING - Failed to get task '<TaskInstance: my_first_dag.task_1 2020-11-05 14:38:46.412284+00:00 [failed]>' for dag '<DAG: my_first_dag>'. Marking it as removed.
+[2020-11-05 23:46:32,227] {logging_mixin.py:112} INFO - [2020-11-05 23:46:32,227] {dagrun.py:378} WARNING - Failed to get task '<TaskInstance: my_first_dag.task_2 2020-11-05 14:38:46.412284+00:00 [upstream_failed]>' for dag '<DAG: my_first_dag>'. Marking it as removed.
+[2020-11-05 23:46:32,235] {scheduler_job.py:771} INFO - Examining DAG run <DagRun my_first_dag @ 2020-11-05 14:41:41.773340+00:00: manual__2020-11-05T14:41:41.773340+00:00, externally triggered: True>
+[2020-11-05 23:46:32,237] {logging_mixin.py:112} INFO - [2020-11-05 23:46:32,237] {dagrun.py:378} WARNING - Failed to get task '<TaskInstance: my_first_dag.task_1 2020-11-05 14:41:41.773340+00:00 [failed]>' for dag '<DAG: my_first_dag>'. Marking it as removed.
+[2020-11-05 23:46:32,238] {logging_mixin.py:112} INFO - [2020-11-05 23:46:32,238] {dagrun.py:378} WARNING - Failed to get task '<TaskInstance: my_first_dag.task_2 2020-11-05 14:41:41.773340+00:00 [upstream_failed]>' for dag '<DAG: my_first_dag>'. Marking it as removed.
+[2020-11-05 23:46:32,277] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: my_first_dag> because no tasks in DAG have SLAs
+[2020-11-05 23:46:32,280] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: my_first_dag.task_11 2020-11-04 00:00:00+00:00 [scheduled]> in ORM
+[2020-11-05 23:46:32,283] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: my_first_dag.task_11 2020-11-05 14:23:18.501689+00:00 [scheduled]> in ORM
+[2020-11-05 23:46:32,285] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: my_first_dag.task_11 2020-11-05 14:38:46.412284+00:00 [scheduled]> in ORM
+[2020-11-05 23:46:32,288] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: my_first_dag.task_11 2020-11-05 14:41:41.773340+00:00 [scheduled]> in ORM
+[2020-11-05 23:46:32,293] {scheduler_job.py:163} INFO - Processing /Users/jigeonho/airflow/dags/my_first.py took 5.167 seconds
+[2020-11-05 23:46:54,703] {scheduler_job.py:155} INFO - Started process (PID=47247) to work on /Users/jigeonho/airflow/dags/my_first.py
+[2020-11-05 23:46:59,713] {scheduler_job.py:1589} INFO - Processing file /Users/jigeonho/airflow/dags/my_first.py for tasks to queue
+[2020-11-05 23:46:59,714] {logging_mixin.py:112} INFO - [2020-11-05 23:46:59,714] {dagbag.py:417} INFO - Filling up the DagBag from /Users/jigeonho/airflow/dags/my_first.py
+[2020-11-05 23:46:59,725] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /Users/jigeonho/airflow/dags/my_first.py
+[2020-11-05 23:46:59,748] {scheduler_job.py:1305} INFO - Processing my_first_dag
+[2020-11-05 23:46:59,760] {scheduler_job.py:771} INFO - Examining DAG run <DagRun my_first_dag @ 2020-11-04 00:00:00+00:00: scheduled__2020-11-04T00:00:00+00:00, externally triggered: False>
+[2020-11-05 23:46:59,770] {scheduler_job.py:771} INFO - Examining DAG run <DagRun my_first_dag @ 2020-11-05 14:23:18.501689+00:00: manual__2020-11-05T14:23:18.501689+00:00, externally triggered: True>
+[2020-11-05 23:46:59,777] {scheduler_job.py:771} INFO - Examining DAG run <DagRun my_first_dag @ 2020-11-05 14:38:46.412284+00:00: manual__2020-11-05T14:38:46.412284+00:00, externally triggered: True>
+[2020-11-05 23:46:59,784] {scheduler_job.py:771} INFO - Examining DAG run <DagRun my_first_dag @ 2020-11-05 14:41:41.773340+00:00: manual__2020-11-05T14:41:41.773340+00:00, externally triggered: True>
+[2020-11-05 23:46:59,816] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: my_first_dag> because no tasks in DAG have SLAs
+[2020-11-05 23:46:59,818] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: my_first_dag.task_11 2020-11-04 00:00:00+00:00 [scheduled]> in ORM
+[2020-11-05 23:46:59,822] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: my_first_dag.task_11 2020-11-05 14:23:18.501689+00:00 [scheduled]> in ORM
+[2020-11-05 23:46:59,824] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: my_first_dag.task_11 2020-11-05 14:38:46.412284+00:00 [scheduled]> in ORM
+[2020-11-05 23:46:59,826] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: my_first_dag.task_11 2020-11-05 14:41:41.773340+00:00 [scheduled]> in ORM
+[2020-11-05 23:46:59,831] {scheduler_job.py:163} INFO - Processing /Users/jigeonho/airflow/dags/my_first.py took 5.129 seconds
+[2020-11-05 23:47:00,180] {scheduler_job.py:155} INFO - Started process (PID=47251) to work on /Users/jigeonho/airflow/dags/my_first.py
+[2020-11-05 23:47:05,190] {scheduler_job.py:1589} INFO - Processing file /Users/jigeonho/airflow/dags/my_first.py for tasks to queue
+[2020-11-05 23:47:05,191] {logging_mixin.py:112} INFO - [2020-11-05 23:47:05,191] {dagbag.py:417} INFO - Filling up the DagBag from /Users/jigeonho/airflow/dags/my_first.py
+[2020-11-05 23:47:05,202] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /Users/jigeonho/airflow/dags/my_first.py
+[2020-11-05 23:47:05,224] {scheduler_job.py:1305} INFO - Processing my_first_dag
+[2020-11-05 23:47:05,235] {scheduler_job.py:771} INFO - Examining DAG run <DagRun my_first_dag @ 2020-11-04 00:00:00+00:00: scheduled__2020-11-04T00:00:00+00:00, externally triggered: False>
+[2020-11-05 23:47:05,251] {scheduler_job.py:771} INFO - Examining DAG run <DagRun my_first_dag @ 2020-11-05 14:23:18.501689+00:00: manual__2020-11-05T14:23:18.501689+00:00, externally triggered: True>
+[2020-11-05 23:47:05,263] {scheduler_job.py:771} INFO - Examining DAG run <DagRun my_first_dag @ 2020-11-05 14:38:46.412284+00:00: manual__2020-11-05T14:38:46.412284+00:00, externally triggered: True>
+[2020-11-05 23:47:05,275] {scheduler_job.py:771} INFO - Examining DAG run <DagRun my_first_dag @ 2020-11-05 14:41:41.773340+00:00: manual__2020-11-05T14:41:41.773340+00:00, externally triggered: True>
+[2020-11-05 23:47:05,294] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: my_first_dag> because no tasks in DAG have SLAs
+[2020-11-05 23:47:05,297] {scheduler_job.py:163} INFO - Processing /Users/jigeonho/airflow/dags/my_first.py took 5.116 seconds
+[2020-11-05 23:48:39,636] {scheduler_job.py:155} INFO - Started process (PID=47333) to work on /Users/jigeonho/airflow/dags/my_first.py
+[2020-11-05 23:48:44,643] {scheduler_job.py:1589} INFO - Processing file /Users/jigeonho/airflow/dags/my_first.py for tasks to queue
+[2020-11-05 23:48:44,644] {logging_mixin.py:112} INFO - [2020-11-05 23:48:44,644] {dagbag.py:417} INFO - Filling up the DagBag from /Users/jigeonho/airflow/dags/my_first.py
+[2020-11-05 23:48:44,655] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /Users/jigeonho/airflow/dags/my_first.py
+[2020-11-05 23:48:44,674] {scheduler_job.py:1305} INFO - Processing my_first_dag
+[2020-11-05 23:48:44,686] {scheduler_job.py:771} INFO - Examining DAG run <DagRun my_first_dag @ 2020-11-04 00:00:00+00:00: scheduled__2020-11-04T00:00:00+00:00, externally triggered: False>
+[2020-11-05 23:48:44,694] {logging_mixin.py:112} INFO - [2020-11-05 23:48:44,694] {dagrun.py:311} INFO - Marking run <DagRun my_first_dag @ 2020-11-04 00:00:00+00:00: scheduled__2020-11-04T00:00:00+00:00, externally triggered: False> failed
+[2020-11-05 23:48:44,697] {scheduler_job.py:771} INFO - Examining DAG run <DagRun my_first_dag @ 2020-11-05 14:23:18.501689+00:00: manual__2020-11-05T14:23:18.501689+00:00, externally triggered: True>
+[2020-11-05 23:48:44,703] {logging_mixin.py:112} INFO - [2020-11-05 23:48:44,703] {dagrun.py:311} INFO - Marking run <DagRun my_first_dag @ 2020-11-05 14:23:18.501689+00:00: manual__2020-11-05T14:23:18.501689+00:00, externally triggered: True> failed
+[2020-11-05 23:48:44,705] {scheduler_job.py:771} INFO - Examining DAG run <DagRun my_first_dag @ 2020-11-05 14:38:46.412284+00:00: manual__2020-11-05T14:38:46.412284+00:00, externally triggered: True>
+[2020-11-05 23:48:44,713] {logging_mixin.py:112} INFO - [2020-11-05 23:48:44,712] {dagrun.py:311} INFO - Marking run <DagRun my_first_dag @ 2020-11-05 14:38:46.412284+00:00: manual__2020-11-05T14:38:46.412284+00:00, externally triggered: True> failed
+[2020-11-05 23:48:44,715] {scheduler_job.py:771} INFO - Examining DAG run <DagRun my_first_dag @ 2020-11-05 14:41:41.773340+00:00: manual__2020-11-05T14:41:41.773340+00:00, externally triggered: True>
+[2020-11-05 23:48:44,721] {logging_mixin.py:112} INFO - [2020-11-05 23:48:44,721] {dagrun.py:311} INFO - Marking run <DagRun my_first_dag @ 2020-11-05 14:41:41.773340+00:00: manual__2020-11-05T14:41:41.773340+00:00, externally triggered: True> failed
+[2020-11-05 23:48:44,723] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: my_first_dag> because no tasks in DAG have SLAs
+[2020-11-05 23:48:44,726] {scheduler_job.py:163} INFO - Processing /Users/jigeonho/airflow/dags/my_first.py took 5.090 seconds
+[2020-11-05 23:49:07,834] {scheduler_job.py:155} INFO - Started process (PID=47351) to work on /Users/jigeonho/airflow/dags/my_first.py
+[2020-11-05 23:49:12,845] {scheduler_job.py:1589} INFO - Processing file /Users/jigeonho/airflow/dags/my_first.py for tasks to queue
+[2020-11-05 23:49:12,847] {logging_mixin.py:112} INFO - [2020-11-05 23:49:12,846] {dagbag.py:417} INFO - Filling up the DagBag from /Users/jigeonho/airflow/dags/my_first.py
+[2020-11-05 23:49:12,861] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /Users/jigeonho/airflow/dags/my_first.py
+[2020-11-05 23:49:12,881] {scheduler_job.py:1305} INFO - Processing my_first_dag
+[2020-11-05 23:49:12,891] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: my_first_dag> because no tasks in DAG have SLAs
+[2020-11-05 23:49:12,895] {scheduler_job.py:163} INFO - Processing /Users/jigeonho/airflow/dags/my_first.py took 5.061 seconds
+[2020-11-05 23:49:13,206] {scheduler_job.py:155} INFO - Started process (PID=47355) to work on /Users/jigeonho/airflow/dags/my_first.py
+[2020-11-05 23:49:18,215] {scheduler_job.py:1589} INFO - Processing file /Users/jigeonho/airflow/dags/my_first.py for tasks to queue
+[2020-11-05 23:49:18,217] {logging_mixin.py:112} INFO - [2020-11-05 23:49:18,217] {dagbag.py:417} INFO - Filling up the DagBag from /Users/jigeonho/airflow/dags/my_first.py
+[2020-11-05 23:49:18,228] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /Users/jigeonho/airflow/dags/my_first.py
+[2020-11-05 23:49:18,250] {scheduler_job.py:1305} INFO - Processing my_first_dag
+[2020-11-05 23:49:18,263] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: my_first_dag> because no tasks in DAG have SLAs
+[2020-11-05 23:49:18,267] {scheduler_job.py:163} INFO - Processing /Users/jigeonho/airflow/dags/my_first.py took 5.061 seconds
+[2020-11-05 23:50:52,247] {scheduler_job.py:155} INFO - Started process (PID=47432) to work on /Users/jigeonho/airflow/dags/my_first.py
+[2020-11-05 23:50:57,255] {scheduler_job.py:1589} INFO - Processing file /Users/jigeonho/airflow/dags/my_first.py for tasks to queue
+[2020-11-05 23:50:57,256] {logging_mixin.py:112} INFO - [2020-11-05 23:50:57,255] {dagbag.py:417} INFO - Filling up the DagBag from /Users/jigeonho/airflow/dags/my_first.py
+[2020-11-05 23:50:57,266] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /Users/jigeonho/airflow/dags/my_first.py
+[2020-11-05 23:50:57,287] {scheduler_job.py:1305} INFO - Processing my_first_dag
+[2020-11-05 23:50:57,298] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: my_first_dag> because no tasks in DAG have SLAs
+[2020-11-05 23:50:57,302] {scheduler_job.py:163} INFO - Processing /Users/jigeonho/airflow/dags/my_first.py took 5.055 seconds
+[2020-11-05 23:51:21,246] {scheduler_job.py:155} INFO - Started process (PID=47453) to work on /Users/jigeonho/airflow/dags/my_first.py
+[2020-11-05 23:51:26,251] {scheduler_job.py:1589} INFO - Processing file /Users/jigeonho/airflow/dags/my_first.py for tasks to queue
+[2020-11-05 23:51:26,252] {logging_mixin.py:112} INFO - [2020-11-05 23:51:26,252] {dagbag.py:417} INFO - Filling up the DagBag from /Users/jigeonho/airflow/dags/my_first.py
+[2020-11-05 23:51:26,264] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /Users/jigeonho/airflow/dags/my_first.py
+[2020-11-05 23:51:26,282] {scheduler_job.py:1305} INFO - Processing my_first_dag
+[2020-11-05 23:51:26,292] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: my_first_dag> because no tasks in DAG have SLAs
+[2020-11-05 23:51:26,295] {scheduler_job.py:163} INFO - Processing /Users/jigeonho/airflow/dags/my_first.py took 5.049 seconds
+[2020-11-05 23:51:26,440] {scheduler_job.py:155} INFO - Started process (PID=47457) to work on /Users/jigeonho/airflow/dags/my_first.py
+[2020-11-05 23:51:31,445] {scheduler_job.py:1589} INFO - Processing file /Users/jigeonho/airflow/dags/my_first.py for tasks to queue
+[2020-11-05 23:51:31,446] {logging_mixin.py:112} INFO - [2020-11-05 23:51:31,446] {dagbag.py:417} INFO - Filling up the DagBag from /Users/jigeonho/airflow/dags/my_first.py
+[2020-11-05 23:51:31,460] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /Users/jigeonho/airflow/dags/my_first.py
+[2020-11-05 23:51:31,477] {scheduler_job.py:1305} INFO - Processing my_first_dag
+[2020-11-05 23:51:31,487] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: my_first_dag> because no tasks in DAG have SLAs
+[2020-11-05 23:51:31,491] {scheduler_job.py:163} INFO - Processing /Users/jigeonho/airflow/dags/my_first.py took 5.051 seconds
+[2020-11-06 00:00:55,756] {scheduler_job.py:155} INFO - Started process (PID=48253) to work on /Users/jigeonho/airflow/dags/my_first.py
+[2020-11-06 00:01:00,765] {scheduler_job.py:1589} INFO - Processing file /Users/jigeonho/airflow/dags/my_first.py for tasks to queue
+[2020-11-06 00:01:00,766] {logging_mixin.py:112} INFO - [2020-11-06 00:01:00,766] {dagbag.py:417} INFO - Filling up the DagBag from /Users/jigeonho/airflow/dags/my_first.py
+[2020-11-06 00:01:00,777] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /Users/jigeonho/airflow/dags/my_first.py
+[2020-11-06 00:01:00,799] {scheduler_job.py:1305} INFO - Processing my_first_dag
+[2020-11-06 00:01:00,809] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: my_first_dag> because no tasks in DAG have SLAs
+[2020-11-06 00:01:00,813] {scheduler_job.py:163} INFO - Processing /Users/jigeonho/airflow/dags/my_first.py took 5.057 seconds
+[2020-11-06 00:03:13,676] {scheduler_job.py:155} INFO - Started process (PID=48357) to work on /Users/jigeonho/airflow/dags/my_first.py
+[2020-11-06 00:03:18,686] {scheduler_job.py:1589} INFO - Processing file /Users/jigeonho/airflow/dags/my_first.py for tasks to queue
+[2020-11-06 00:03:18,687] {logging_mixin.py:112} INFO - [2020-11-06 00:03:18,687] {dagbag.py:417} INFO - Filling up the DagBag from /Users/jigeonho/airflow/dags/my_first.py
+[2020-11-06 00:03:18,689] {scheduler_job.py:1603} WARNING - No viable dags retrieved from /Users/jigeonho/airflow/dags/my_first.py
+[2020-11-06 00:03:18,690] {scheduler_job.py:163} INFO - Processing /Users/jigeonho/airflow/dags/my_first.py took 5.014 seconds
