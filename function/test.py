@@ -1,3 +1,2 @@
-import first
-if __name__ == "__main__":
-  first.main()  
+import subprocess
+subprocess.run(['/bin/bash', 'runvenv.sh'])
